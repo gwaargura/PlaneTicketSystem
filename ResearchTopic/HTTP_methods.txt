@@ -1,0 +1,7 @@
+HTTP: Hypertext Transfer Protocol
+ - Client communicates with Server through HTTP methods.
+ - Most used Methods: 
+	+ GET: request data.
+	+ POST: create data. 
+	+ PUT: update data.
+	+ DELETE: delete data.

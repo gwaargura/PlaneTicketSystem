@@ -1,0 +1,14 @@
+CSR: Client Side Rendering 
+ - Http requests are responded with a static HTML file, then the browser render with JavaScript.
+ - Advantages: 
+	+ Easy to do interactive front-end.
+ - Disadvantages: 
+	+ Slower render time.
+
+SSR: Server Side Rendering
+ - Http requests are responded with a completed page that was processed by the server.
+ - Advantages:
+	+ Faster render time.
+ - Disadvantages:
+	+ Difficult to manage complexity when adding interactive component to the page. 
+

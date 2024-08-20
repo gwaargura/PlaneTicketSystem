@@ -1,0 +1,10 @@
+Rest: Representational State Transfer
+ - A set of constraints and principles for creating web services.
+ - Architecture: 
+ 	+ Client-Server Architecture: Client requests -> Server responses.
+	+ Stateless: Requests must contain all the information the server needs to fulfill them. Server does not store sessions.
+	+ Catchability: Responses can be cached to improve performance.
+	+ Layered System: Client-Server can communicate through many layers (cache, proxy, ...).
+	+ Uniform Interface: Simplifies the architecture.
+	+ Hypermedia as the Engine of Application State (HATEOAS): Enabling clients to discover and navigate available actions through hypermedia links provided by the server. 
+	+ Representations: Data can be in form of JSON, XML, HTML.

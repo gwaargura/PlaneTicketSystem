@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nakamura Rin",
+      "password": "123",
+      "email": "nakamurarin@gmail.com",
+      "phone": "0000000000",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Houshou Marine",
+      "password": "123",
+      "email": "houshoumarine@gmail.com",
+      "phone": "1111111111",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Sakurajima Mai",
+      "password": "123",
+      "email": "sakurajimamai@gmail.com",
+      "phone": "2222222222",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Shiina Mahiru",
+      "password": "123",
+      "email": "shiinamahiru@gmail.com",
+      "phone": "3333333333",
+      "active": true
+    }
+  ]
+}

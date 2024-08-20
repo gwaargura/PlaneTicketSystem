@@ -1,0 +1,8 @@
+JSON: A data type that based on key-value pairs
+ - Used in Client-Server communications (request, response).
+ - Characteristics:
+	+ Easy to understand/read.
+	+ Cross-platform.
+	+ Multi-language support.
+	+ Light-weight, fast.
+	+ Does not support complex data types. 
