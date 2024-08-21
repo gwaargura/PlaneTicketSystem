@@ -1,7 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "Nakamura Rin",
       "password": "123",
       "email": "nakamurarin@gmail.com",
@@ -9,7 +8,6 @@
       "active": true
     },
     {
-      "id": 2,
       "name": "Houshou Marine",
       "password": "123",
       "email": "houshoumarine@gmail.com",
@@ -17,7 +15,6 @@
       "active": true
     },
     {
-      "id": 3,
       "name": "Sakurajima Mai",
       "password": "123",
       "email": "sakurajimamai@gmail.com",
@@ -25,7 +22,6 @@
       "active": true
     },
     {
-      "id": 4,
       "name": "Shiina Mahiru",
       "password": "123",
       "email": "shiinamahiru@gmail.com",

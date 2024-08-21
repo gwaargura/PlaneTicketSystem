@@ -1,0 +1,56 @@
+### GET ALL
+GET http://localhost:8080/planes
+###
+
+### GET ALL ACTIVE
+GET http://localhost:8080/planes/active
+###
+
+### GET ALL BY BRAND
+GET http://localhost:8080/planes/boeing
+###
+
+### CREATE NEW PLANE
+POST http://localhost:8080/planes/new
+Content-Type: application/json
+
+{
+  "brand": "Boeing",
+  "name": "737 Max2",
+  "size": 178,
+  "active": true
+}
+###
+
+### UPDATE PLANE
+PUT http://localhost:8080/planes/update
+Content-Type: application/json
+
+{
+  "id": 6,
+  "brand": "Boeing",
+  "name": "737 Max2111",
+  "size": 178,
+  "active": true
+}
+###
+
+### DEACTIVATE A PLANE
+PUT http://localhost:8080/planes/deactivate
+Content-Type: application/json
+
+{
+  "id": 7,
+  "approved": true
+}
+###
+
+### DELETE A PLANE
+DELETE http://localhost:8080/planes/delete
+Content-Type: application/json
+
+{
+  "id": 7,
+  "approved": true
+}
+###

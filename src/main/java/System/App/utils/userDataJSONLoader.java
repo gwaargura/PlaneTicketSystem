@@ -1,7 +1,7 @@
-package System.App.Utils;
+package System.App.utils;
 
-import System.App.Lists.Users;
-import System.App.Repositories.UserRepository;
+import System.App.lists.Users;
+import System.App.repositories.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +35,7 @@ public class userDataJSONLoader implements CommandLineRunner {
             }
         }
         else{
-            log.info("Not loading from JSON file. Collection already contains data.");
+            log.info("Not loading users from JSON file. Collection already contains data.");
         }
     }
 }

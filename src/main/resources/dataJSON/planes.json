@@ -1,0 +1,34 @@
+{
+  "planes": [
+    {
+      "brand": "Boeing",
+      "name": "737 Max",
+      "size": 178,
+      "active": true
+    },
+    {
+      "brand": "Airbus",
+      "name": "A320",
+      "size": 150,
+      "active": true
+    },
+    {
+      "brand": "Embraer",
+      "name": "E175",
+      "size": 88,
+      "active": true
+    },
+    {
+      "brand": "Bombardier",
+      "name": "CRJ-900",
+      "size": 76,
+      "active": true
+    },
+    {
+      "brand": "Cessna",
+      "name": "Citation X",
+      "size": 8,
+      "active": true
+    }
+  ]
+}

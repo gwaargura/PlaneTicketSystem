@@ -1,0 +1,59 @@
+### GET ALL PILOTS
+GET http://localhost:8080/pilots
+###
+
+### GET ALL ACTIVE PILOTS
+GET http://localhost:8080/pilots/active
+###
+
+### GET PILOT BY NON-EXISTING ID
+GET http://localhost:8080/pilots/6
+###
+
+### CREATE NEW PILOT
+POST http://localhost:8080/pilots/new
+Content-Type: application/json
+
+{
+  "name": "Pilot Tsuyu Asui",
+  "age": 21,
+  "totalHourFlew": 100.6,
+  "active": true
+}
+###
+
+### DEACTIVATE A PILOT
+PUT http://localhost:8080/pilots/deactivate
+Content-Type: application/json
+
+{
+  "id": 6,
+  "approved": true
+}
+###
+
+### UPDATE A PILOT
+PUT http://localhost:8080/pilots/update
+Content-Type: application/json
+
+{
+  "id": 6,
+  "name": "Pilot Tsuyu Asui",
+  "age": 21,
+  "totalHourFlew": 100.6,
+  "active": true
+}
+###
+
+### GET PILOT BY ID
+GET http://localhost:8080/pilots/6
+###
+
+### PHYSICAL DELETE PILOT
+DELETE http://localhost:8080/pilots/delete
+Content-Type: application/json
+
+{
+  "id": 8,
+  "approved": true
+}

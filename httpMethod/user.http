@@ -1,0 +1,66 @@
+### GET ALL USERS
+GET http://localhost:8080/users
+###
+
+### GET ALL USERS ACTIVE
+GET http://localhost:8080/users/active
+###
+
+### GET USER BY ID
+GET http://localhost:8080/users/6
+###
+
+### GET USER BY NON-EXISTED ID
+GET http://localhost:8080/users/8
+###
+
+### CREATE
+POST http://localhost:8080/users/new
+Content-Type: application/json
+
+{
+  "name": "Ookami Mio",
+  "password": "123",
+  "email": "ookamimio@gmail.com",
+  "phone": "1111111111",
+  "active": true
+}
+###
+
+### UPDATE EXISTING USER
+PUT http://localhost:8080/users/update
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "Ookami Mio",
+  "password": "1234",
+  "email": "ookamimio@gmail.com",
+  "phone": "1111111111",
+  "active": true
+}
+###
+
+### DEACTIVATE EXISTING USER
+PUT http://localhost:8080/users/deactivate
+Content-Type: application/json
+
+{
+  "id": 5,
+  "approved": true
+}
+###
+
+### PHYSICAL DELETE EXISTING USER
+DELETE http://localhost:8080/users/delete
+Content-Type: application/json
+
+{
+  "id": 6,
+  "approved": true
+}
+###
+
+### GET ALL USERS ACTIVE
+GET http://localhost:8080/users/active
+###

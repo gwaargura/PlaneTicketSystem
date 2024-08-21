@@ -1,6 +1,6 @@
-package System.App.Lists;
+package System.App.lists;
 
-import System.App.Entities.User;
+import System.App.entities.User;
 
 import java.util.List;
 

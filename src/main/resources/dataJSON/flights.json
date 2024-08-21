@@ -1,0 +1,50 @@
+{
+  "flights": [
+    {
+      "planeId": 1,
+      "pilotId": 1,
+      "copilotId": 2,
+      "origin": "Ha Noi, Viet Nam",
+      "destination": "Tokyo, Japan",
+      "departureTime": "2024-08-21T14:45:30.123456",
+      "duration": 5.3
+    },
+    {
+      "planeId": 2,
+      "pilotId": 2,
+      "copilotId": 3,
+      "origin": "Ha Noi, Viet Nam",
+      "destination": "Kyoto, Japan",
+      "departureTime": "2024-08-21T14:45:30.123456",
+      "duration": 5.3
+    },
+    {
+      "planeId": 3,
+      "pilotId": 3,
+      "copilotId": 4,
+      "origin": "Ho Chi Minh, Viet Nam",
+      "destination": "Tokyo, Japan",
+      "departureTime": "2024-08-21T14:45:30.123456",
+      "duration": 5.3
+    },
+    {
+      "planeId": 4,
+      "pilotId": 4,
+      "copilotId": 5,
+      "origin": "Da Nang, Viet Nam",
+      "destination": "Kyoto, Japan",
+      "departureTime": "2024-08-21T14:45:30.123456",
+      "duration": 5.3
+    },
+    {
+      "planeId": 5,
+      "pilotId": 5,
+      "copilotId": 1,
+      "origin": "Ha Noi, Viet Nam",
+      "destination": "Osaka  , Japan",
+      "departureTime": "2024-08-21T14:45:30.123456",
+      "duration": 5.3
+    }
+
+  ]
+}

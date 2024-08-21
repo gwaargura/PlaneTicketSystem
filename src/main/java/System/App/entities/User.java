@@ -1,4 +1,4 @@
-package System.App.Entities;
+package System.App.entities;
 
 public record User(
         Integer id,

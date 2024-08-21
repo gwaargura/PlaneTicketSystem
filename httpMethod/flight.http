@@ -1,0 +1,11 @@
+### GET BY ORIGIN
+GET http://localhost:8080/flights/origin=Ha
+###
+
+### GET BY DESTINATION
+GET http://localhost:8080/flights/destination=Japan
+###
+
+### GET BY ORIGIN AND DESTINATION
+GET http://localhost:8080/flights/origin=Ha/destination=Japan
+###
